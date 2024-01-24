@@ -4,7 +4,7 @@ debounce();
 const slide = new SlideNav(".slide", ".wrapper");
 slide.init();
 slide.addArrow(".prev", ".next");
-slide.changeSlide(3);
+slide.changeSlide(1);
 slide.activePrevSlide();
 
-slide.addControl();
+slide.addControl(".custom-controls");
