@@ -6,3 +6,5 @@ slide.init();
 slide.addArrow(".prev", ".next");
 slide.changeSlide(3);
 slide.activePrevSlide();
+
+slide.addControl();
